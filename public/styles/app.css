@@ -1,0 +1,45 @@
+body {
+  background-color: coral;
+  margin: 0;
+  padding: 0; }
+
+.app-header {
+  height: 60px;
+  background-color: black;
+  width: 100%; }
+
+.app-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 1000px;
+  height: 100%; }
+  .app-wrapper .app-nav {
+    width: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch; }
+    .app-wrapper .app-nav .nav-item {
+      height: 60px;
+      background-color: darkslategray;
+      margin: 0 0 5px 0;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .app-wrapper .app-nav .nav-item.active-nav {
+        background-color: white; }
+      .app-wrapper .app-nav .nav-item:hover {
+        background-color: white; }
+  .app-wrapper .main-content {
+    flex: 1;
+    background-color: gray; }
+
+.screen {
+  padding: 20px; }
+
+/*# sourceMappingURL=app.css.map */
